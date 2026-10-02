@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bicicletaria do Grau 5.0 | Manutenção e Cuidado para sua Bicicleta em São Paulo</title>
+  <meta name="description" content="Bicicletaria do Grau 5.0 — Manutenção profissional, revisão completa e cuidados especializados para bicicletas em São Paulo. Solicite seu orçamento pelo WhatsApp!">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Bicicletaria do Grau 5.0 | Manutenção para sua Bike">
+  <meta property="og:description" content="Manutenção profissional e cuidados especializados para bicicletas. Solicite um orçamento rápido pelo WhatsApp.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/hero-bicicletaria.jpg">
+  <meta property="og:locale" content="pt_BR">
+  
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="assets/logo/favicon.svg">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#" class="header-logo" aria-label="Bicicletaria do Grau 5.0 — Início">
+        <img src="assets/logo/logo.jpg" alt="Logo Bicicletaria do Grau 5.0" width="48" height="48">
+        <span>Bicicletaria<br>do Grau 5.0</span>
+      </a>
+      
+      <nav class="nav-links" aria-label="Navegação principal">
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#faq">FAQ</a>
+        <a href="#localizacao">Contato</a>
+      </nav>
+      
+      <div class="nav-cta">
+        <a href="#orcamento" class="btn btn-primary">
+          Solicitar Orçamento
+        </a>
+      </div>
+      
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+  
+  <!-- Menu Mobile -->
+  <div class="mobile-nav-overlay" id="mobile-nav-overlay"></div>
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Menu mobile">
+    <a href="#servicos">Serviços</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#depoimentos">Depoimentos</a>
+    <a href="#faq">FAQ</a>
+    <a href="#localizacao">Contato</a>
+    <a href="#orcamento" class="btn btn-primary">Solicitar Orçamento</a>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-shapes">
+      <div class="circle circle-1"></div>
+      <div class="circle circle-2"></div>
+      <div class="circle circle-3"></div>
+    </div>
+    
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge fade-in">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+          Manutenção especializada em São Paulo
+        </div>
+        
+        <h1 class="hero-title fade-in delay-1">
+          Sua bike merece o<br>
+          <span class="highlight">melhor cuidado</span>
+        </h1>
+        
+        <p class="hero-description fade-in delay-2">
+          Na Bicicletaria do Grau 5.0, cada bicicleta recebe atenção e cuidado profissional. 
+          Da revisão preventiva ao ajuste fino, deixamos sua bike pronta para qualquer trajeto.
+        </p>
+        
+        <div class="hero-actions fade-in delay-3">
+          <a href="#orcamento" class="btn btn-whatsapp" id="hero-cta-whatsapp">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Peça seu Orçamento
+          </a>
+          <a href="#servicos" class="btn btn-secondary" id="hero-cta-servicos">
+            Conheça os Serviços
+          </a>
+        </div>
+        
+        <div class="hero-stats fade-in delay-4">
+          <div class="hero-stat">
+            <div class="stat-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <span class="stat-label">Manutenção<br>Profissional</span>
+          </div>
+          <div class="hero-stat">
+            <div class="stat-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <span class="stat-label">Segurança<br>Garantida</span>
+          </div>
+          <div class="hero-stat">
+            <div class="stat-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <span class="stat-label">Atendimento<br>via WhatsApp</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="hero-image fade-in-right delay-2">
+        <div class="hero-image-wrapper">
+          <img src="assets/images/hero-bicicletaria.jpg" alt="Oficina profissional de bicicletas — Bicicletaria do Grau 5.0" width="600" height="500">
+        </div>
+        
+        <div class="hero-floating-card card-1">
+          <div class="card-icon green">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 12 2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>
+          </div>
+          <div class="card-text">
+            <strong>Revisão Completa</strong>
+            <span>Diagnóstico detalhado</span>
+          </div>
+        </div>
+        
+        <div class="hero-floating-card card-2">
+          <div class="card-icon lime">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div class="card-text">
+            <strong>Orçamento Rápido</strong>
+            <span>Pelo WhatsApp</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SOBRE ===== -->
+  <section class="sobre section-padding" id="sobre">
+    <div class="container sobre-grid">
+      <div class="sobre-image fade-in-left">
+        <img src="assets/images/sobre-oficina.jpg" alt="Interior da oficina Bicicletaria do Grau 5.0" width="600" height="450" loading="lazy">
+        <div class="sobre-image-badge">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:inline;vertical-align:middle;margin-right:4px"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Zona Sul — São Paulo
+        </div>
+      </div>
+      
+      <div class="sobre-content fade-in-right">
+        <div class="section-badge">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          Quem somos
+        </div>
+        <h2>Cuidado e dedicação em cada <span style="color:var(--verde-agua)">pedalada</span></h2>
+        
+        <p>
+          A <strong>Bicicletaria do Grau 5.0</strong> é uma oficina especializada em manutenção e cuidados para bicicletas, 
+          localizada no Jardim Amalia, Zona Sul de São Paulo. Oferecemos atendimento próximo, 
+          com foco na qualidade do serviço e na satisfação de cada ciclista.
+        </p>
+        <p>
+          Desde revisões preventivas até ajustes de transmissão e freios, nossa equipe trabalha 
+          com atenção aos detalhes para que sua bike esteja sempre pronta, segura e com desempenho ideal.
+        </p>
+        
+        <div class="sobre-features">
+          <div class="sobre-feature fade-in delay-1">
+            <div class="sobre-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <span class="sobre-feature-text">Manutenção Profissional</span>
+          </div>
+          <div class="sobre-feature fade-in delay-2">
+            <div class="sobre-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <span class="sobre-feature-text">Orçamento via WhatsApp</span>
+          </div>
+          <div class="sobre-feature fade-in delay-3">
+            <div class="sobre-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <span class="sobre-feature-text">Atenção aos Detalhes</span>
+          </div>
+          <div class="sobre-feature fade-in delay-4">
+            <div class="sobre-feature-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <span class="sobre-feature-text">Segurança em 1º Lugar</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVIÇOS ===== -->
+  <section class="servicos section-padding" id="servicos">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge fade-in">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          Nossos serviços
+        </div>
+        <h2 class="section-title fade-in delay-1">Tudo que sua bike precisa</h2>
+        <p class="section-subtitle fade-in delay-2">Oferecemos serviços completos de manutenção e cuidados para todos os tipos de bicicletas.</p>
+      </div>
+      
+      <div class="servicos-grid">
+        <!-- Manutenção Preventiva -->
+        <div class="servico-card fade-in delay-1">
+          <div class="servico-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+          </div>
+          <h3>Manutenção Preventiva</h3>
+          <p>Cuide da sua bike antes que o problema apareça. Revisão completa para manter tudo funcionando.</p>
+          <ul>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Revisão geral da bicicleta
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Inspeção dos componentes
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Lubrificação da corrente
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Ajustes preventivos
+            </li>
+          </ul>
+          <a href="javascript:void(0)" class="servico-link" onclick="sendWhatsAppService('Manutenção Preventiva')">
+            Solicitar orçamento
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+        
+        <!-- Freios e Segurança -->
+        <div class="servico-card fade-in delay-2">
+          <div class="servico-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Freios e Segurança</h3>
+          <p>Freios em perfeito estado são essenciais. Garantimos sua segurança no pedal.</p>
+          <ul>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Regulagem de freios
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Inspeção de pastilhas e sapatas
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Verificação de cabos
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Avaliação de itens de segurança
+            </li>
+          </ul>
+          <a href="javascript:void(0)" class="servico-link" onclick="sendWhatsAppService('Freios e Segurança')">
+            Solicitar orçamento
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+        
+        <!-- Transmissão e Marchas -->
+        <div class="servico-card fade-in delay-3">
+          <div class="servico-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          </div>
+          <h3>Transmissão e Marchas</h3>
+          <p>Marchas precisas e transmissão fluida para o melhor desempenho no seu pedal.</p>
+          <ul>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Regulagem de câmbio
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Ajuste de marchas
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Limpeza e lubrificação
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Inspeção de corrente e cassete
+            </li>
+          </ul>
+          <a href="javascript:void(0)" class="servico-link" onclick="sendWhatsAppService('Transmissão e Marchas')">
+            Solicitar orçamento
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+        
+        <!-- Rodas e Pneus -->
+        <div class="servico-card fade-in delay-1">
+          <div class="servico-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/><line x1="4.93" y1="4.93" x2="9.17" y2="9.17"/><line x1="14.83" y1="14.83" x2="19.07" y2="19.07"/><line x1="14.83" y1="9.17" x2="19.07" y2="4.93"/><line x1="4.93" y1="19.07" x2="9.17" y2="14.83"/></svg>
+          </div>
+          <h3>Rodas e Pneus</h3>
+          <p>Rodas alinhadas e pneus calibrados são a base de uma pedalada confortável e segura.</p>
+          <ul>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Calibragem de pneus
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Troca de câmaras de ar
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Reparo de furos
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Alinhamento de rodas
+            </li>
+          </ul>
+          <a href="javascript:void(0)" class="servico-link" onclick="sendWhatsAppService('Rodas e Pneus')">
+            Solicitar orçamento
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+        
+        <!-- Montagem e Ajustes -->
+        <div class="servico-card fade-in delay-2">
+          <div class="servico-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <h3>Montagem e Ajustes</h3>
+          <p>Bike nova ou precisa de ajustes ergonômicos? Montamos e configuramos para o seu conforto.</p>
+          <ul>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Montagem de bicicletas
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Ajuste de selim e guidão
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Instalação de acessórios
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Regulagens gerais
+            </li>
+          </ul>
+          <a href="javascript:void(0)" class="servico-link" onclick="sendWhatsAppService('Montagem e Ajustes')">
+            Solicitar orçamento
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+        
+        <!-- Limpeza e Conservação -->
+        <div class="servico-card fade-in delay-3">
+          <div class="servico-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+          </div>
+          <h3>Limpeza e Conservação</h3>
+          <p>Uma bike limpa dura mais e funciona melhor. Cuidamos de cada detalhe para você.</p>
+          <ul>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Limpeza de componentes
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Cuidados com a transmissão
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Orientações de conservação
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              Proteção contra ferrugem
+            </li>
+          </ul>
+          <a href="javascript:void(0)" class="servico-link" onclick="sendWhatsAppService('Limpeza e Conservação')">
+            Solicitar orçamento
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DIFERENCIAIS ===== -->
+  <section class="diferenciais section-padding" id="diferenciais">
+    <div class="diferenciais-bg"></div>
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge fade-in">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          Diferenciais
+        </div>
+        <h2 class="section-title fade-in delay-1">Por que a Grau 5.0?</h2>
+        <p class="section-subtitle fade-in delay-2">Motivos que fazem nossos clientes voltarem sempre.</p>
+      </div>
+      
+      <div class="diferenciais-grid">
+        <div class="diferencial-card fade-in delay-1">
+          <div class="diferencial-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h3>Cuidado com sua Bike</h3>
+          <p>Cada bicicleta é tratada com atenção e respeito. Entendemos o valor da sua companheira de pedal.</p>
+        </div>
+        
+        <div class="diferencial-card fade-in delay-2">
+          <div class="diferencial-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Atendimento Próximo</h3>
+          <p>Gostamos de conversar, entender suas necessidades e orientar sobre os melhores cuidados.</p>
+        </div>
+        
+        <div class="diferencial-card fade-in delay-3">
+          <div class="diferencial-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3>Orçamento Prático</h3>
+          <p>Solicite seu orçamento pelo WhatsApp, de forma rápida, sem burocracia e sem compromisso.</p>
+        </div>
+        
+        <div class="diferencial-card fade-in delay-4">
+          <div class="diferencial-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <h3>Atenção aos Detalhes</h3>
+          <p>Inspecionamos cada componente com cuidado. Nenhum detalhe passa despercebido.</p>
+        </div>
+        
+        <div class="diferencial-card fade-in delay-5">
+          <div class="diferencial-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          </div>
+          <h3>Orientação ao Ciclista</h3>
+          <p>Compartilhamos dicas de conservação e manutenção para que sua bike dure mais.</p>
+        </div>
+        
+        <div class="diferencial-card fade-in delay-6">
+          <div class="diferencial-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <h3>Soluções sob Medida</h3>
+          <p>Cada bike é única. Avaliamos e recomendamos a melhor solução para o seu caso.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DEPOIMENTOS ===== -->
+  <section class="depoimentos section-padding" id="depoimentos">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge fade-in">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          Depoimentos
+        </div>
+        <h2 class="section-title fade-in delay-1">O que dizem nossos clientes</h2>
+        <p class="section-subtitle fade-in delay-2">Espaço reservado para avaliações reais dos nossos clientes.</p>
+      </div>
+      
+      <div class="depoimentos-grid">
+        <div class="depoimento-card fade-in delay-1">
+          <div class="quote-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+          </div>
+          <div class="depoimento-stars">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <blockquote>"Exemplo de depoimento — este espaço será preenchido com avaliações reais de clientes da Bicicletaria do Grau 5.0."</blockquote>
+          <div class="depoimento-author">
+            <div class="depoimento-avatar">C</div>
+            <div class="depoimento-author-info">
+              <strong>Cliente Exemplo</strong>
+              <span>Avaliação ilustrativa</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="depoimento-card fade-in delay-2">
+          <div class="quote-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+          </div>
+          <div class="depoimento-stars">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <blockquote>"Exemplo de depoimento — este espaço será preenchido com avaliações reais de clientes da Bicicletaria do Grau 5.0."</blockquote>
+          <div class="depoimento-author">
+            <div class="depoimento-avatar">C</div>
+            <div class="depoimento-author-info">
+              <strong>Cliente Exemplo</strong>
+              <span>Avaliação ilustrativa</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="depoimento-card fade-in delay-3">
+          <div class="quote-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+          </div>
+          <div class="depoimento-stars">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <blockquote>"Exemplo de depoimento — este espaço será preenchido com avaliações reais de clientes da Bicicletaria do Grau 5.0."</blockquote>
+          <div class="depoimento-author">
+            <div class="depoimento-avatar">C</div>
+            <div class="depoimento-author-info">
+              <strong>Cliente Exemplo</strong>
+              <span>Avaliação ilustrativa</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <p class="depoimento-disclaimer fade-in">
+        * Os depoimentos acima são exemplos ilustrativos. Este espaço será atualizado com avaliações reais dos clientes.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== ORÇAMENTO ===== -->
+  <section class="orcamento section-padding" id="orcamento">
+    <div class="orcamento-bg"></div>
+    <div class="container orcamento-grid">
+      <div class="orcamento-info fade-in-left">
+        <div class="section-badge">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          Orçamento
+        </div>
+        <h2>Solicite um orçamento pelo <span style="color:#25D366">WhatsApp</span></h2>
+        <p>
+          Preencha o formulário com os dados da sua bicicleta e o serviço desejado. 
+          Ao enviar, uma mensagem será preparada automaticamente para o nosso WhatsApp. 
+          Você poderá revisá-la antes de confirmar o envio.
+        </p>
+        
+        <div class="orcamento-benefits">
+          <div class="orcamento-benefit">
+            <div class="orcamento-benefit-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <span>Sem compromisso</span>
+          </div>
+          <div class="orcamento-benefit">
+            <div class="orcamento-benefit-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <span>Resposta rápida via WhatsApp</span>
+          </div>
+          <div class="orcamento-benefit">
+            <div class="orcamento-benefit-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <span>Seus dados não são armazenados</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="form-container fade-in-right delay-1">
+        <form id="orcamento-form" novalidate>
+          <!-- Dados do Cliente -->
+          <h3 class="form-section-title">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+            Dados do Cliente
+          </h3>
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nome">Nome completo <span class="required">*</span></label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+              <span class="error-message">Informe seu nome.</span>
+            </div>
+            <div class="form-group">
+              <label for="telefone">Telefone <span class="required">*</span></label>
+              <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999" required>
+              <span class="error-message">Informe um telefone válido.</span>
+            </div>
+          </div>
+          
+          <!-- Informações da Bicicleta -->
+          <h3 class="form-section-title">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="5.5" cy="17.5" r="3.5"/><circle cx="18.5" cy="17.5" r="3.5"/><path d="M15 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-3 11.5V14l-3-3 4-3 2 3h2"/></svg>
+            Informações da Bicicleta
+          </h3>
+          
+          <div class="form-row">
+            <div class="form-group">
+              <label for="tipo-bike">Tipo de bicicleta <span class="required">*</span></label>
+              <select id="tipo-bike" name="tipo-bike" required>
+                <option value="">Selecione...</option>
+                <option value="MTB (Mountain Bike)">MTB (Mountain Bike)</option>
+                <option value="Urbana / Passeio">Urbana / Passeio</option>
+                <option value="Speed / Road">Speed / Road</option>
+                <option value="BMX">BMX</option>
+                <option value="Elétrica">Elétrica</option>
+                <option value="Infantil">Infantil</option>
+                <option value="Outra">Outra</option>
+              </select>
+              <span class="error-message">Selecione o tipo da bicicleta.</span>
+            </div>
+            <div class="form-group">
+              <label for="marca-modelo">Marca/Modelo</label>
+              <input type="text" id="marca-modelo" name="marca-modelo" placeholder="Ex: Caloi Explorer 20">
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="situacao">Situação atual da bicicleta</label>
+            <input type="text" id="situacao" name="situacao" placeholder="Ex: Marchas não estão funcionando corretamente">
+          </div>
+          
+          <!-- Serviço Desejado -->
+          <h3 class="form-section-title">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            Serviço Desejado
+          </h3>
+          
+          <div class="form-group">
+            <label for="servico">Categoria do serviço <span class="required">*</span></label>
+            <select id="servico" name="servico" required>
+              <option value="">Selecione...</option>
+              <option value="Manutenção Preventiva / Revisão Geral">Manutenção Preventiva / Revisão Geral</option>
+              <option value="Freios e Segurança">Freios e Segurança</option>
+              <option value="Transmissão e Marchas">Transmissão e Marchas</option>
+              <option value="Rodas e Pneus">Rodas e Pneus</option>
+              <option value="Montagem e Ajustes">Montagem e Ajustes</option>
+              <option value="Limpeza e Conservação">Limpeza e Conservação</option>
+              <option value="Outro Serviço">Outro Serviço</option>
+            </select>
+            <span class="error-message">Selecione a categoria do serviço.</span>
+          </div>
+          
+          <div class="form-group">
+            <label for="descricao">Descrição do problema ou manutenção <span class="required">*</span></label>
+            <textarea id="descricao" name="descricao" rows="4" placeholder="Descreva o que sua bike precisa..." required></textarea>
+            <span class="error-message">Descreva o serviço ou problema.</span>
+          </div>
+          
+          <div class="form-group">
+            <label for="observacoes">Observações adicionais</label>
+            <textarea id="observacoes" name="observacoes" rows="3" placeholder="Informações extras, preferência de horário, etc."></textarea>
+          </div>
+          
+          <button type="submit" class="btn btn-whatsapp" style="width: 100%; padding: 1rem;" id="form-submit-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Enviar Orçamento pelo WhatsApp
+          </button>
+          
+          <p class="form-privacy">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            As informações preenchidas serão utilizadas exclusivamente para preparar sua solicitação de orçamento via WhatsApp. Nenhum dado é armazenado pelo site.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq section-padding" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge fade-in">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          Dúvidas
+        </div>
+        <h2 class="section-title fade-in delay-1">Perguntas Frequentes</h2>
+        <p class="section-subtitle fade-in delay-2">Reunimos as principais dúvidas para facilitar sua experiência.</p>
+      </div>
+      
+      <div class="faq-list">
+        <div class="faq-item fade-in delay-1">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-1">
+            Quais serviços de manutenção são oferecidos?
+            <span class="faq-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer" id="faq-answer-1" role="region">
+            <div class="faq-answer-content">
+              Oferecemos manutenção preventiva, regulagem de freios, ajuste de marchas e câmbio, troca de câmaras e pneus, alinhamento de rodas, montagem de bicicletas, limpeza de componentes, instalação de acessórios e demais serviços de manutenção geral. Para saber se atendemos sua necessidade específica, entre em contato pelo WhatsApp.
+            </div>
+          </div>
+        </div>
+        
+        <div class="faq-item fade-in delay-2">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-2">
+            Como posso solicitar um orçamento?
+            <span class="faq-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer" id="faq-answer-2" role="region">
+            <div class="faq-answer-content">
+              Você pode solicitar um orçamento preenchendo o formulário aqui no site ou entrando em contato diretamente pelo nosso WhatsApp: <strong>(11) 96550-4747</strong>. O formulário prepara uma mensagem organizada com os dados da sua bike, facilitando o atendimento.
+            </div>
+          </div>
+        </div>
+        
+        <div class="faq-item fade-in delay-3">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-3">
+            Preciso agendar o atendimento?
+            <span class="faq-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer" id="faq-answer-3" role="region">
+            <div class="faq-answer-content">
+              Recomendamos entrar em contato pelo WhatsApp para verificar a disponibilidade e combinar o melhor horário. Assim garantimos um atendimento mais ágil e organizado.
+            </div>
+          </div>
+        </div>
+        
+        <div class="faq-item fade-in delay-4">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-4">
+            Vocês realizam revisão completa de bicicletas?
+            <span class="faq-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer" id="faq-answer-4" role="region">
+            <div class="faq-answer-content">
+              Sim! Realizamos revisão completa, que inclui a inspeção de todos os componentes, ajustes de freio e câmbio, lubrificação, verificação de rodas e pneus, e limpeza geral. Após a revisão, informamos o que precisa de atenção e sugerimos as manutenções necessárias.
+            </div>
+          </div>
+        </div>
+        
+        <div class="faq-item fade-in delay-5">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-5">
+            Quais informações devo enviar para facilitar o orçamento?
+            <span class="faq-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer" id="faq-answer-5" role="region">
+            <div class="faq-answer-content">
+              Para agilizar o orçamento, é útil informar o tipo da bicicleta (MTB, urbana, speed, etc.), marca e modelo quando possível, uma descrição do problema ou serviço desejado, e fotos da bike podem ajudar bastante na avaliação.
+            </div>
+          </div>
+        </div>
+        
+        <div class="faq-item fade-in delay-6">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-6">
+            Quanto tempo demora uma manutenção?
+            <span class="faq-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer" id="faq-answer-6" role="region">
+            <div class="faq-answer-content">
+              O prazo varia de acordo com o serviço. Manutenções simples como calibragem, lubrificação ou regulagens podem ser realizadas mais rapidamente. Já revisões completas ou reparos maiores podem levar mais tempo. Entre em contato para que possamos informar um prazo estimado para o seu caso.
+            </div>
+          </div>
+        </div>
+        
+        <div class="faq-item fade-in delay-6">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-7">
+            Vocês trabalham com diferentes tipos de bicicletas?
+            <span class="faq-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer" id="faq-answer-7" role="region">
+            <div class="faq-answer-content">
+              Sim! Atendemos bicicletas de diversos tipos, como MTB, urbanas, speed, BMX, elétricas e infantis. Se tiver dúvida sobre o atendimento para um modelo específico, é só perguntar pelo WhatsApp.
+            </div>
+          </div>
+        </div>
+        
+        <div class="faq-item fade-in delay-6">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq-answer-8">
+            Posso solicitar orçamento pelo WhatsApp?
+            <span class="faq-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer" id="faq-answer-8" role="region">
+            <div class="faq-answer-content">
+              Com certeza! O WhatsApp é nosso principal canal de atendimento. Você pode nos chamar diretamente pelo número <strong>(11) 96550-4747</strong> ou utilizar o formulário do site, que prepara a mensagem automaticamente.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LOCALIZAÇÃO / CONTATO ===== -->
+  <section class="localizacao section-padding" id="localizacao">
+    <div class="container localizacao-grid">
+      <div class="localizacao-info fade-in-left">
+        <div class="section-badge">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Localização
+        </div>
+        <h2>Venha nos visitar</h2>
+        <p>Estamos no Jardim Amalia, Zona Sul de São Paulo. Fale conosco e saiba como chegar.</p>
+        
+        <div class="contato-items">
+          <a href="https://wa.me/5511965504747" target="_blank" rel="noopener noreferrer" class="contato-item" id="contato-whatsapp">
+            <div class="contato-item-icon" style="background:#25D366;">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </div>
+            <div class="contato-item-text">
+              <h4>WhatsApp</h4>
+              <p>(11) 96550-4747</p>
+            </div>
+          </a>
+          
+          <a href="https://www.google.com/maps/search/?api=1&query=R.+Serra+dos+Dois+Irm%C3%A3os,+475+-+Jardim+Amalia,+S%C3%A3o+Paulo+-+SP,+05890-300" target="_blank" rel="noopener noreferrer" class="contato-item" id="contato-endereco">
+            <div class="contato-item-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="contato-item-text">
+              <h4>Endereço</h4>
+              <p>R. Serra dos Dois Irmãos, 475<br>Jardim Amalia, São Paulo - SP<br>CEP 05890-300</p>
+            </div>
+          </a>
+          
+          <div class="contato-item">
+            <div class="contato-item-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div class="contato-item-text">
+              <h4>Horário</h4>
+              <p>Entre em contato pelo WhatsApp para confirmar o horário de atendimento.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="localizacao-mapa fade-in-right delay-1">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.9!2d-46.7907886!3d-23.6641194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce53e700824dcb%3A0x5bf608aefcd53e8f!2sR.+Serra+dos+Dois+Irm%C3%A3os%2C+475+-+Jardim+Amalia%2C+S%C3%A3o+Paulo+-+SP%2C+05890-300!5e0!3m2!1spt-BR!2sbr!4v1696000000000" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Localização da Bicicletaria do Grau 5.0 no mapa">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RODAPÉ ===== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="assets/logo/logo.jpg" alt="Logo Bicicletaria do Grau 5.0" width="44" height="44">
+            <span>Bicicletaria<br>do Grau 5.0</span>
+          </div>
+          <p>Manutenção profissional e cuidados especializados para a sua bicicleta. Localizada no Jardim Amalia, Zona Sul de São Paulo.</p>
+        </div>
+        
+        <div class="footer-nav">
+          <h4>Navegação</h4>
+          <div class="footer-links">
+            <a href="#hero">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#orcamento">Orçamento</a>
+            <a href="#faq">FAQ</a>
+          </div>
+        </div>
+        
+        <div class="footer-servicos">
+          <h4>Serviços</h4>
+          <div class="footer-links">
+            <a href="#servicos">Manutenção Preventiva</a>
+            <a href="#servicos">Freios e Segurança</a>
+            <a href="#servicos">Transmissão</a>
+            <a href="#servicos">Rodas e Pneus</a>
+            <a href="#servicos">Montagem</a>
+          </div>
+        </div>
+        
+        <div class="footer-contato">
+          <h4>Contato</h4>
+          <div class="footer-contato-info">
+            <div class="footer-contato-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>R. Serra dos Dois Irmãos, 475<br>Jardim Amalia, São Paulo - SP</span>
+            </div>
+            <div class="footer-contato-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <a href="https://wa.me/5511965504747" target="_blank" rel="noopener noreferrer">(11) 96550-4747</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; <script>document.write(new Date().getFullYear())</script> Bicicletaria do Grau 5.0. Todos os direitos reservados.</p>
+        <button class="footer-back-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+          Voltar ao topo
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Flutuante -->
+  <a href="https://wa.me/5511965504747" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Conversar pelo WhatsApp" id="whatsapp-float">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- Botão Voltar ao Topo -->
+  <button class="back-to-top" id="back-to-top" aria-label="Voltar ao topo">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
