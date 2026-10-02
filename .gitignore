@@ -101,6 +101,7 @@ log/
 *.bak
 *.swp
 *.swo
+push_github.bat
 .sass-cache/
 .eslintcache
 .stylelintcache
